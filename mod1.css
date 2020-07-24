@@ -1,0 +1,114 @@
+h1
+{
+	text-align: center;
+}
+*{
+	box-sizing:border-box;
+}
+body{
+	margin:0;
+	padding:0;
+	font-family: "Comic Sans MS";
+}
+@media (min-width:992px)
+{
+	.div1,.div2,.div3{
+	float:left;
+	background-color:grey;
+border:1px solid black;
+margin:1%;
+padding:5px;
+box-sizing:border-box;
+width:31%;
+}}
+@media (min-width:768px) and (max-width: 991px)
+{
+	.div1,.div2{
+	float:left;
+	background-color:grey;
+border:1px solid black;
+margin:2%;
+padding:5px;
+width:45%;
+box-sizing:border-box;
+	}
+.div3{
+	float:left;
+	background-color:grey;
+border:1px solid black;
+margin:2%;
+padding:5px;
+box-sizing:border-box;
+width:90%;
+	}}
+@media (max-width:767px)
+{
+	.div1,.div2,.div3{
+	float:left;
+	background-color:grey;
+border:1px solid black;
+margin:2.5%;
+padding:5px;
+box-sizing:border-box;
+width:90%;
+}
+}
+.div1,.div2,.div3{position:relative;
+overflow:none;
+}
+.a{
+	height: auto;
+	overflow:none;
+	clear:right;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-top: 0;
+	padding:0;
+}
+
+.chik{
+	background-color: yellow;
+	width:30%;
+	text-align: center;
+border: 1px solid black;
+float: right;
+  margin-right: 0px;
+  margin-bottom:0;
+  margin-top: 0px;
+  font-weight: bold;
+  position: relative;
+  position:relative;
+  top: -5px;
+  left: 5px;
+}
+.beef{
+	background-color: lightgreen;
+	width:30%;
+	text-align: center;
+border: 1px solid black;
+float: right;
+  margin-right: 0px;
+  margin-top: 0px;
+  font-weight: bold;
+  position: relative;
+   position:relative;
+  top: -5px;
+  margin-bottom:0;
+  left: 5px;
+}
+.sushi{
+	background-color: pink;
+	width:30%;
+	text-align: center;
+border: 1px solid black;
+float: right;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin bottom: 0px;
+  font-weight: bold;
+  position: relative;
+   position:relative;
+  top: -5px;
+  left: 5px;
+  margin-bottom:0;
+}
